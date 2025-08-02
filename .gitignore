@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+.env
+*.env
+.vscode/
+.idea/
+*.log
+
+*.conda
+*.egg-info/
+
+outputlog/
+Screenshot/
+FridaOutput/
