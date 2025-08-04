@@ -1,18 +1,47 @@
 # 安装依赖  
 # pip install -q openai python-dotenv  
 # pip install openai-agents
-from agents import trace, Runner
-import json, requests, base64, os, asyncio
+import os
+import json
+import requests
+import base64
+import asyncio
 from typing import Union
 from collections import OrderedDict
 from IPython.display import Markdown, display
+from dotenv import load_dotenv
+from openai import AsyncOpenAI
+from agents import (
+    trace,
+    Runner,
+    set_default_openai_client,
+    set_default_openai_api,
+    set_tracing_disabled
+)
 from VisionAgent import agent1
 from NormAgent import agent2
 from FridaAgent import agent3
 from ReportAgent import agent4
-from Client import imgbb_api_key, flowus_client
+from Client import imgbb_api_key
 
-folder_path = r"D:\AgentProject\testAgent\mcp_service\testfridalogfolder\app.qmjita.cn"
+load_dotenv(override=True)
+
+flowus_key = os.getenv("FLOWUS_API_KEY")
+if not flowus_key:
+    raise EnvironmentError(
+        "未检测到 FLOWUS_API_KEY，必须设置后才能继续。"
+    )
+print("FLOWUS API key 存在，前 8 位为：", flowus_key[:8])
+# set_tracing_disabled(True)#如果是openAI的api则可以使用trace
+set_default_openai_api("chat_completions")
+
+client = AsyncOpenAI(
+    api_key=flowus_key,
+    base_url="https://api.xty.app/v1"
+)
+set_default_openai_client(client)
+
+folder_path = r"D:\AgentProject\SCOPEAgent\mcp_service\testAgent3\app.qmjita.cn"
 package_name = os.path.basename(folder_path.rstrip("\\/"))
 
 def upload_image_to_imgbb(image_path):
@@ -138,7 +167,7 @@ async def run_agent1(image_records: list[dict]):
     with trace("Agent1 权限识别流程"):
         result = await Runner.run(agent1, messages)
 
-    print("✅ 分析完成")
+    print("✅ Agent1处理完毕")
     return result.final_output
 async def run_agent2(agent1_output: dict) -> str:
     """
@@ -153,7 +182,7 @@ async def run_agent2(agent1_output: dict) -> str:
 
     with trace("Agent2 表述规范性分析"):
         result = await Runner.run(agent2, message)
-
+    print("✅ Agent2处理完毕")
     return result.final_output
 async def run_agent3(agent1_output: dict, folder_path: str):
     """
@@ -162,7 +191,6 @@ async def run_agent3(agent1_output: dict, folder_path: str):
     不再调用 filter_related_apis_from_fridalog 工具，也不使用 build_agent3_input。
     """
     with trace("Agent3 敏感API行为分析"):
-        # 加载 frida 日志原始文本
         frida_log = load_frida_log(folder_path)
 
         if not frida_log.strip():
@@ -174,7 +202,6 @@ async def run_agent3(agent1_output: dict, folder_path: str):
                 "matched_apis": []
             }
 
-        # 提取 type 和 description
         types = []
         for item in agent1_output.get("agent3", []):
             if item.get("success") and item.get("type"):
@@ -182,7 +209,7 @@ async def run_agent3(agent1_output: dict, folder_path: str):
         types = list(set(types))
 
         if not types:
-            print("❌ Agent1 中无有效权限类型")
+            print("Agent1 中无有效权限类型")
             return {
                 "from": "agent3",
                 "package": agent1_output.get("package", "unknown"),
@@ -190,7 +217,6 @@ async def run_agent3(agent1_output: dict, folder_path: str):
                 "matched_apis": []
             }
 
-        # 构造输入 JSON 对象（Agent3 prompt 需要的结构）
         agent3_input = {
             "package": agent1_output.get("package", "unknown"),
             "types": types,
@@ -198,13 +224,12 @@ async def run_agent3(agent1_output: dict, folder_path: str):
             "backtrace": frida_log.strip()
         }
 
-        # 构造对话消息
         messages = [
             {"role": "user", "content": json.dumps(agent3_input, ensure_ascii=False, indent=2)}
         ]
 
-        # 执行 agent3
         result = await Runner.run(agent3, messages)
+        print("✅ Agent3处理完毕")
         return result.final_output
 async def run_agent4(agent4_input: list) -> str:
     """
@@ -224,9 +249,8 @@ async def run_agent4(agent4_input: list) -> str:
 
     with trace("Agent4 合规性终端分析"):
         result = await Runner.run(agent4, messages)
-
+    print("✅ Agent4处理完毕")
     return result.final_output    
-
 
 async def main():
     #构建输入images
@@ -251,7 +275,9 @@ async def main():
     agent4_input = build_agent4_input(*raw_agent4_input)
     agent4_output = await run_agent4(agent4_input)
     #报告可视化输出
-    display(Markdown(agent4_output))
+    with open("权限说明合规性报告.md", "w", encoding="utf-8") as f:
+        f.write(agent4_output)
+    print("✅ Markdown 报告已保存至 权限说明合规性报告.md")
 
 if __name__ == "__main__":
     asyncio.run(main())

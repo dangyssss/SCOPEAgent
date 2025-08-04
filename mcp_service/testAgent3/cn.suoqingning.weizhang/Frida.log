@@ -1,0 +1,75 @@
+status=0
+pid: 13687
+resume: 13687
+
+timeStamp：2025-07-21T06:59:34.744Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://com.tencent.mobileqq.openapi.provider/query_app_version?appid=102021631&pkgName=cn.suoqingning.weizhang (object)
+arg[1]:  (object)
+arg[2]: null (object)
+arg[3]: null (object)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.tencent.open.utils.h.c(ProGuard:113)
+	at com.tencent.open.utils.h.b(ProGuard:76)
+	at com.tencent.open.utils.h.a(ProGuard:46)
+	at com.tencent.open.utils.k.g(ProGuard:739)
+	at com.tencent.open.utils.k.b(ProGuard:701)
+	at com.tencent.open.b.b.a(ProGuard:66)
+	at com.tencent.tauth.Tencent.<init>(ProGuard:83)
+	at com.tencent.tauth.Tencent.createInstance(ProGuard:163)
+	at com.tencent.tauth.Tencent.createInstance(ProGuard:141)
+	at io.github.v7lin.tencent_kit.TencentKitPlugin.onMethodCall(TencentKitPlugin.java:152)
+	at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:258)
+	at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:295)
+	at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:322)
+	at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(Unknown Source:12)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7660)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-21T06:59:34.743Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://com.tencent.mobileqq.openapi.provider/query_app_version?appid=102021631&pkgName=cn.suoqingning.weizhang (object)
+arg[1]:  (object)
+arg[2]: null (object)
+arg[3]: null (object)
+arg[4]: null (object)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.tencent.open.utils.h.c(ProGuard:113)
+	at com.tencent.open.utils.h.b(ProGuard:76)
+	at com.tencent.open.utils.h.a(ProGuard:46)
+	at com.tencent.open.utils.k.g(ProGuard:739)
+	at com.tencent.open.utils.k.b(ProGuard:701)
+	at com.tencent.open.b.b.a(ProGuard:66)
+	at com.tencent.tauth.Tencent.<init>(ProGuard:83)
+	at com.tencent.tauth.Tencent.createInstance(ProGuard:163)
+	at com.tencent.tauth.Tencent.createInstance(ProGuard:141)
+	at io.github.v7lin.tencent_kit.TencentKitPlugin.onMethodCall(TencentKitPlugin.java:152)
+	at io.flutter.plugin.common.MethodChannel$IncomingMethodCallHandler.onMessage(MethodChannel.java:258)
+	at io.flutter.embedding.engine.dart.DartMessenger.invokeHandler(DartMessenger.java:295)
+	at io.flutter.embedding.engine.dart.DartMessenger.lambda$dispatchMessageToQueue$0$io-flutter-embedding-engine-dart-DartMessenger(DartMessenger.java:322)
+	at io.flutter.embedding.engine.dart.DartMessenger$$ExternalSyntheticLambda0.run(Unknown Source:12)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7660)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+--->>> exiting android.content.ContentResolver.query

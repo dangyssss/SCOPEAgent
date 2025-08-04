@@ -1,0 +1,1490 @@
+status=0
+pid: 9539
+resume: 9539
+A sensitive API query was matched! android.telephony.TelephonyManager.getDeviceId
+
+timeStamp：2025-05-21T08:20:58.271Z
+--->>> starting android.telephony.TelephonyManager.getDeviceId
+function getDeviceId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getDeviceId(Native Method)
+	at com.tencent.smtt.utils.b.f(Unknown Source:19)
+	at com.tencent.smtt.sdk.TbsLogReport.a(Unknown Source:14)
+	at com.tencent.smtt.sdk.TbsLogReport.a(Unknown Source:0)
+	at com.tencent.smtt.sdk.TbsLogReport$1.handleMessage(Unknown Source:20)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+--->>> exiting android.telephony.TelephonyManager.getDeviceId
+A sensitive API query was matched! android.telephony.TelephonyManager.getDeviceId
+
+timeStamp：2025-05-21T08:20:59.528Z
+--->>> starting android.telephony.TelephonyManager.getDeviceId
+function getDeviceId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getDeviceId(Native Method)
+	at com.kwad.sdk.utils.ap.d(Unknown Source:39)
+	at com.kwad.sdk.core.g.a.d.a(Unknown Source:13)
+	at com.kwad.sdk.core.g.a.d.a(Unknown Source:1)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:68)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getDeviceId
+A sensitive API query was matched! android.telephony.TelephonyManager.getImei
+
+timeStamp：2025-05-21T08:20:59.546Z
+--->>> starting android.telephony.TelephonyManager.getImei
+function getImei(int): java.lang.String called
+arg[0]: 0 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at com.kwad.sdk.utils.ap.f(Unknown Source:76)
+	at com.kwad.sdk.core.g.a.d.a(Unknown Source:27)
+	at com.kwad.sdk.core.g.a.d.a(Unknown Source:1)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:68)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getMeid
+A sensitive API query was matched! android.telephony.TelephonyManager.getMeid
+
+timeStamp：2025-05-21T08:20:59.562Z
+--->>> starting android.telephony.TelephonyManager.getMeid
+function getMeid(int): java.lang.String called
+arg[0]: 2147483647 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getMeid(Native Method)
+	at android.telephony.TelephonyManager.getMeid(TelephonyManager.java:1781)
+	at android.telephony.TelephonyManager.getMeid(Native Method)
+	at com.kwad.sdk.utils.ap.e(Unknown Source:47)
+	at com.kwad.sdk.core.g.a.d.a(Unknown Source:49)
+	at com.kwad.sdk.core.g.a.d.a(Unknown Source:1)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:68)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getMeid
+
+timeStamp：2025-05-21T08:20:59.558Z
+--->>> starting android.telephony.TelephonyManager.getMeid
+function getMeid(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getMeid(Native Method)
+	at com.kwad.sdk.utils.ap.e(Unknown Source:47)
+	at com.kwad.sdk.core.g.a.d.a(Unknown Source:49)
+	at com.kwad.sdk.core.g.a.d.a(Unknown Source:1)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:68)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getMeid
+A sensitive API query was matched! android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getDeviceId
+
+timeStamp：2025-05-21T08:20:59.613Z
+--->>> starting android.telephony.TelephonyManager.getImei
+function getImei(int): java.lang.String called
+arg[0]: 2147483647 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at android.telephony.TelephonyManager.getImei(TelephonyManager.java:1681)
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:6)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:2)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:6)
+	at io.dcloud.common.util.TelephonyUtil.getIMEI(SourceFile:27)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:14)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getImei
+
+timeStamp：2025-05-21T08:20:59.611Z
+--->>> starting android.telephony.TelephonyManager.getImei
+function getImei(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:6)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:2)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:6)
+	at io.dcloud.common.util.TelephonyUtil.getIMEI(SourceFile:27)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:14)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getImei
+
+timeStamp：2025-05-21T08:20:59.625Z
+--->>> starting android.telephony.TelephonyManager.getImei
+function getImei(int): java.lang.String called
+arg[0]: 0 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:6)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:26)
+	at io.dcloud.common.util.TelephonyUtil.getIMEI(SourceFile:27)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:14)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getImei
+
+timeStamp：2025-05-21T08:20:59.633Z
+--->>> starting android.telephony.TelephonyManager.getImei
+function getImei(int): java.lang.String called
+arg[0]: 1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:6)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:27)
+	at io.dcloud.common.util.TelephonyUtil.getIMEI(SourceFile:27)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:14)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getDeviceId
+
+timeStamp：2025-05-21T08:20:59.616Z
+--->>> starting android.telephony.TelephonyManager.getDeviceId
+function getDeviceId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getDeviceId(Native Method)
+	at com.bytedance.sdk.openadsdk.core.j.m(IdUtils.java:341)
+	at com.bytedance.sdk.openadsdk.core.j.l(IdUtils.java:252)
+	at com.bytedance.sdk.openadsdk.core.j.d(IdUtils.java:118)
+	at com.bytedance.sdk.openadsdk.j.a.c.q(LogStatsBase.java:117)
+	at com.bytedance.sdk.openadsdk.j.a.c.a(LogStatsBase.java:106)
+	at com.bytedance.sdk.openadsdk.j.c.c.a(LogUploaderImpl.java:72)
+	at com.bytedance.sdk.openadsdk.j.a.a(StatsLogManager.java:111)
+	at com.bytedance.sdk.openadsdk.core.l.b(InitHelper.java:103)
+	at com.bytedance.sdk.openadsdk.TTAdSdk$5.run(TTAdSdk.java:348)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getDeviceId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.635Z
+--->>> starting android.telephony.TelephonyManager.getDeviceId
+function getDeviceId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getDeviceId(Native Method)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:41)
+	at io.dcloud.common.util.TelephonyUtil.getIMEI(SourceFile:27)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:14)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getDeviceId
+A sensitive API query was matched! android.telephony.TelephonyManager.getDeviceId
+
+timeStamp：2025-05-21T08:20:59.643Z
+--->>> starting android.telephony.TelephonyManager.getDeviceId
+function getDeviceId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getDeviceId(Native Method)
+	at io.dcloud.common.util.TelephonyUtil.getIMEI(SourceFile:113)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:14)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getDeviceId
+
+timeStamp：2025-05-21T08:20:59.640Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(int): java.lang.String called
+arg[0]: -1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at android.telephony.TelephonyManager.getSubscriberId(TelephonyManager.java:3591)
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.bytedance.sdk.openadsdk.core.j.m(IdUtils.java:342)
+	at com.bytedance.sdk.openadsdk.core.j.l(IdUtils.java:252)
+	at com.bytedance.sdk.openadsdk.core.j.d(IdUtils.java:118)
+	at com.bytedance.sdk.openadsdk.j.a.c.q(LogStatsBase.java:117)
+	at com.bytedance.sdk.openadsdk.j.a.c.a(LogStatsBase.java:106)
+	at com.bytedance.sdk.openadsdk.j.c.c.a(LogUploaderImpl.java:72)
+	at com.bytedance.sdk.openadsdk.j.a.a(StatsLogManager.java:111)
+	at com.bytedance.sdk.openadsdk.core.l.b(InitHelper.java:103)
+	at com.bytedance.sdk.openadsdk.TTAdSdk$5.run(TTAdSdk.java:348)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.637Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.bytedance.sdk.openadsdk.core.j.m(IdUtils.java:342)
+	at com.bytedance.sdk.openadsdk.core.j.l(IdUtils.java:252)
+	at com.bytedance.sdk.openadsdk.core.j.d(IdUtils.java:118)
+	at com.bytedance.sdk.openadsdk.j.a.c.q(LogStatsBase.java:117)
+	at com.bytedance.sdk.openadsdk.j.a.c.a(LogStatsBase.java:106)
+	at com.bytedance.sdk.openadsdk.j.c.c.a(LogUploaderImpl.java:72)
+	at com.bytedance.sdk.openadsdk.j.a.a(StatsLogManager.java:111)
+	at com.bytedance.sdk.openadsdk.core.l.b(InitHelper.java:103)
+	at com.bytedance.sdk.openadsdk.TTAdSdk$5.run(TTAdSdk.java:348)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSimSerialNumber
+A sensitive API query was matched! android.telephony.TelephonyManager.getSimSerialNumber
+A sensitive API query was matched! android.telephony.TelephonyManager.getSimSerialNumber
+A sensitive API query was matched! android.telephony.TelephonyManager.getSimSerialNumber
+
+timeStamp：2025-05-21T08:20:59.693Z
+--->>> starting android.telephony.TelephonyManager.getSimSerialNumber
+function getSimSerialNumber(int): java.lang.String called
+arg[0]: -1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSimSerialNumber(Native Method)
+	at android.telephony.TelephonyManager.getSimSerialNumber(TelephonyManager.java:3320)
+	at android.telephony.TelephonyManager.getSimSerialNumber(Native Method)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:12)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getSimSerialNumber
+
+timeStamp：2025-05-21T08:20:59.692Z
+--->>> starting android.telephony.TelephonyManager.getSimSerialNumber
+function getSimSerialNumber(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSimSerialNumber(Native Method)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:12)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getSimSerialNumber
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+Error: java.lang.SecurityException: No phone privilege permission
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.702Z
+--->>> starting android.telephony.TelephonyManager.getSimSerialNumber
+function getSimSerialNumber(int): java.lang.String called
+arg[0]: -1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSimSerialNumber(Native Method)
+	at android.telephony.TelephonyManager.getSimSerialNumber(TelephonyManager.java:3320)
+	at android.telephony.TelephonyManager.getSimSerialNumber(Native Method)
+	at com.yxcorp.kuaishou.addfp.android.b.a.a(Unknown Source:149)
+	at com.yxcorp.kuaishou.addfp.android.a.d.a(Unknown Source:22)
+	at com.yxcorp.kuaishou.addfp.android.a.a.a(Unknown Source:196)
+	at com.yxcorp.kuaishou.addfp.a.a(Unknown Source:33)
+	at com.yxcorp.kuaishou.addfp.a.a(Unknown Source:0)
+	at com.yxcorp.kuaishou.addfp.c.run(Unknown Source:53)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSimSerialNumber
+
+timeStamp：2025-05-21T08:20:59.728Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(int): java.lang.String called
+arg[0]: -1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at android.telephony.TelephonyManager.getSubscriberId(TelephonyManager.java:3591)
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.y.e(Unknown Source:165)
+	at com.kwad.sdk.core.g.a.i.a(Unknown Source:47)
+	at com.kwad.sdk.KsAdSDKImpl.getNetworkInfo(Unknown Source:0)
+	at com.kwad.sdk.api.loader.e.a(Unknown Source:82)
+	at com.kwad.sdk.api.loader.e.b(Unknown Source:19)
+	at com.kwad.sdk.api.loader.e.a(Unknown Source:0)
+	at com.kwad.sdk.api.loader.e$1.run(Unknown Source:4)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.724Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://telephony/siminfo (object)
+arg[1]: _id,sim_id (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=sim_id = ?, android:query-arg-sql-selection-args=[0]}] (object)
+arg[3]: null (object)
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:880)
+	at android.content.ContentResolver.query(ContentResolver.java:836)
+	at android.content.ContentResolver.query(Native Method)
+	at io.dcloud.common.util.TelephonyUtil.getSubId(SourceFile:5)
+	at io.dcloud.common.util.TelephonyUtil.getIMSI(SourceFile:1)
+	at io.dcloud.common.adapter.util.DeviceInfo.getUpdateIMSI(SourceFile:1)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:104)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-05-21T08:20:59.722Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.y.e(Unknown Source:165)
+	at com.kwad.sdk.core.g.a.i.a(Unknown Source:47)
+	at com.kwad.sdk.KsAdSDKImpl.getNetworkInfo(Unknown Source:0)
+	at com.kwad.sdk.api.loader.e.a(Unknown Source:82)
+	at com.kwad.sdk.api.loader.e.b(Unknown Source:19)
+	at com.kwad.sdk.api.loader.e.a(Unknown Source:0)
+	at com.kwad.sdk.api.loader.e$1.run(Unknown Source:4)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.714Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://telephony/siminfo (object)
+arg[1]: _id,sim_id (object)
+arg[2]: sim_id = ? (string)
+arg[3]: 0 (object)
+arg[4]: null (object)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at io.dcloud.common.util.TelephonyUtil.getSubId(SourceFile:5)
+	at io.dcloud.common.util.TelephonyUtil.getIMSI(SourceFile:1)
+	at io.dcloud.common.adapter.util.DeviceInfo.getUpdateIMSI(SourceFile:1)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:104)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-05-21T08:20:59.700Z
+--->>> starting android.telephony.TelephonyManager.getSimSerialNumber
+function getSimSerialNumber(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSimSerialNumber(Native Method)
+	at com.yxcorp.kuaishou.addfp.android.b.a.a(Unknown Source:149)
+	at com.yxcorp.kuaishou.addfp.android.a.d.a(Unknown Source:22)
+	at com.yxcorp.kuaishou.addfp.android.a.a.a(Unknown Source:196)
+	at com.yxcorp.kuaishou.addfp.a.a(Unknown Source:33)
+	at com.yxcorp.kuaishou.addfp.a.a(Unknown Source:0)
+	at com.yxcorp.kuaishou.addfp.c.run(Unknown Source:53)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSimSerialNumber
+
+timeStamp：2025-05-21T08:20:59.744Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(int): java.lang.String called
+arg[0]: -1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at android.telephony.TelephonyManager.getSubscriberId(TelephonyManager.java:3591)
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.y.e(Unknown Source:165)
+	at com.kwad.sdk.core.g.a.i.a(Unknown Source:47)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:77)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.741Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.y.e(Unknown Source:165)
+	at com.kwad.sdk.core.g.a.i.a(Unknown Source:47)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:77)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+Error: java.lang.SecurityException: No phone privilege permission
+
+timeStamp：2025-05-21T08:20:59.776Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://telephony/siminfo (object)
+arg[1]: _id,sim_id (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=sim_id = ?, android:query-arg-sql-selection-args=[1]}] (object)
+arg[3]: null (object)
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:880)
+	at android.content.ContentResolver.query(ContentResolver.java:836)
+	at android.content.ContentResolver.query(Native Method)
+	at io.dcloud.common.util.TelephonyUtil.getSubId(SourceFile:5)
+	at io.dcloud.common.util.TelephonyUtil.getIMSI(SourceFile:2)
+	at io.dcloud.common.adapter.util.DeviceInfo.getUpdateIMSI(SourceFile:1)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:104)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-05-21T08:20:59.771Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://telephony/siminfo (object)
+arg[1]: _id,sim_id (object)
+arg[2]: sim_id = ? (string)
+arg[3]: 1 (object)
+arg[4]: null (object)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at io.dcloud.common.util.TelephonyUtil.getSubId(SourceFile:5)
+	at io.dcloud.common.util.TelephonyUtil.getIMSI(SourceFile:2)
+	at io.dcloud.common.adapter.util.DeviceInfo.getUpdateIMSI(SourceFile:1)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:104)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.content.ContentResolver.query
+A sensitive API query was matched! android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getImei
+
+timeStamp：2025-05-21T08:20:59.796Z
+--->>> starting android.telephony.TelephonyManager.getImei
+function getImei(int): java.lang.String called
+arg[0]: 2147483647 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at android.telephony.TelephonyManager.getImei(TelephonyManager.java:1681)
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:6)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:2)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:6)
+	at io.dcloud.common.util.TelephonyUtil.getIMEIS(SourceFile:1)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:151)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getImei
+
+timeStamp：2025-05-21T08:20:59.794Z
+--->>> starting android.telephony.TelephonyManager.getImei
+function getImei(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:6)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:2)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:6)
+	at io.dcloud.common.util.TelephonyUtil.getIMEIS(SourceFile:1)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:151)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.812Z
+--->>> starting android.telephony.TelephonyManager.getImei
+function getImei(int): java.lang.String called
+arg[0]: 0 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:6)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:26)
+	at io.dcloud.common.util.TelephonyUtil.getIMEIS(SourceFile:1)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:151)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getImei
+
+timeStamp：2025-05-21T08:20:59.823Z
+--->>> starting android.telephony.TelephonyManager.getImei
+function getImei(int): java.lang.String called
+arg[0]: 1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getImei(Native Method)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at io.dcloud.common.adapter.util.PlatformUtil.invokeMethod(SourceFile:6)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:27)
+	at io.dcloud.common.util.TelephonyUtil.getIMEIS(SourceFile:1)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:151)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getImei
+A sensitive API query was matched! android.telephony.TelephonyManager.getDeviceId
+
+timeStamp：2025-05-21T08:20:59.822Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(int): java.lang.String called
+arg[0]: -1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at android.telephony.TelephonyManager.getSubscriberId(TelephonyManager.java:3591)
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.ap.g(Unknown Source:43)
+	at com.kwad.sdk.core.g.a.h.a(Unknown Source:95)
+	at com.kwad.sdk.core.g.a.k.a(Unknown Source:5)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:95)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.817Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.ap.g(Unknown Source:43)
+	at com.kwad.sdk.core.g.a.h.a(Unknown Source:95)
+	at com.kwad.sdk.core.g.a.k.a(Unknown Source:5)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:95)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.832Z
+--->>> starting android.telephony.TelephonyManager.getDeviceId
+function getDeviceId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getDeviceId(Native Method)
+	at io.dcloud.common.util.TelephonyUtil.getMultiIMEI(SourceFile:41)
+	at io.dcloud.common.util.TelephonyUtil.getIMEIS(SourceFile:1)
+	at io.dcloud.feature.ad.dcloud.ADHandler.d(SourceFile:151)
+	at io.dcloud.feature.ad.dcloud.ADHandler.bd(SourceFile:33)
+	at io.dcloud.feature.ad.dcloud.ADHandler.pull(SourceFile:11)
+	at io.dcloud.feature.ad.dcloud.AdFeatureImpl.doForFeature(SourceFile:62)
+	at io.dcloud.feature.ad.AdFeatureImplMgr.doForFeature(SourceFile:6)
+	at io.dcloud.a.a(SourceFile:13)
+	at io.dcloud.b.checkAndRequestStoragePermission(SourceFile:27)
+	at io.dcloud.WebAppActivity.checkAndRequestStoragePermission(SourceFile:1)
+	at io.dcloud.b.onCreate(SourceFile:124)
+	at io.dcloud.WebAppActivity.onCreate(SourceFile:25)
+	at android.app.Activity.performCreate(Activity.java:7802)
+	at android.app.Activity.performCreate(Activity.java:7791)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1306)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3245)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3409)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:83)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2016)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+--->>> exiting android.telephony.TelephonyManager.getDeviceId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSimSerialNumber
+A sensitive API query was matched! android.telephony.TelephonyManager.getSimSerialNumber
+
+timeStamp：2025-05-21T08:20:59.845Z
+--->>> starting android.telephony.TelephonyManager.getSimSerialNumber
+function getSimSerialNumber(int): java.lang.String called
+arg[0]: -1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSimSerialNumber(Native Method)
+	at android.telephony.TelephonyManager.getSimSerialNumber(TelephonyManager.java:3320)
+	at android.telephony.TelephonyManager.getSimSerialNumber(Native Method)
+	at com.kwad.sdk.utils.ap.h(Unknown Source:50)
+	at com.kwad.sdk.core.g.a.h.a(Unknown Source:109)
+	at com.kwad.sdk.core.g.a.k.a(Unknown Source:5)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:95)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSimSerialNumber
+
+timeStamp：2025-05-21T08:20:59.842Z
+--->>> starting android.telephony.TelephonyManager.getSimSerialNumber
+function getSimSerialNumber(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSimSerialNumber(Native Method)
+	at com.kwad.sdk.utils.ap.h(Unknown Source:50)
+	at com.kwad.sdk.core.g.a.h.a(Unknown Source:109)
+	at com.kwad.sdk.core.g.a.k.a(Unknown Source:5)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:95)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.a.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.e$4.c(Unknown Source:9)
+	at com.kwad.sdk.core.g.e$4.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSimSerialNumber
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+A sensitive API query was matched! android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.960Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(int): java.lang.String called
+arg[0]: -1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at android.telephony.TelephonyManager.getSubscriberId(TelephonyManager.java:3591)
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.y.e(Unknown Source:165)
+	at com.kwad.sdk.core.g.a.i.a(Unknown Source:47)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:77)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.c.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.d$1.c(Unknown Source:2)
+	at com.kwad.sdk.core.g.d$1.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.959Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.y.e(Unknown Source:165)
+	at com.kwad.sdk.core.g.a.i.a(Unknown Source:47)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:77)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.c.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.g.d$1.c(Unknown Source:2)
+	at com.kwad.sdk.core.g.d$1.b(Unknown Source:0)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.966Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(int): java.lang.String called
+arg[0]: -1 (number)
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at android.telephony.TelephonyManager.getSubscriberId(TelephonyManager.java:3591)
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.y.e(Unknown Source:165)
+	at com.kwad.sdk.core.g.a.i.a(Unknown Source:47)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:77)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.report.f.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.report.g.b(Unknown Source:2)
+	at com.kwad.sdk.core.report.g.a(Unknown Source:0)
+	at com.kwad.sdk.core.report.c$5.b(Unknown Source:12)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+
+timeStamp：2025-05-21T08:20:59.964Z
+--->>> starting android.telephony.TelephonyManager.getSubscriberId
+function getSubscriberId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getSubscriberId(Native Method)
+	at com.kwad.sdk.utils.y.e(Unknown Source:165)
+	at com.kwad.sdk.core.g.a.i.a(Unknown Source:47)
+	at com.kwad.sdk.core.network.d.f(Unknown Source:77)
+	at com.kwad.sdk.core.network.b.<init>(Unknown Source:20)
+	at com.kwad.sdk.core.network.d.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.report.f.<init>(Unknown Source:0)
+	at com.kwad.sdk.core.report.g.b(Unknown Source:2)
+	at com.kwad.sdk.core.report.g.a(Unknown Source:0)
+	at com.kwad.sdk.core.report.c$5.b(Unknown Source:12)
+	at com.kwad.sdk.core.network.i.f(Unknown Source:0)
+	at com.kwad.sdk.core.network.a$1.run(Unknown Source:2)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.telephony.TelephonyManager.getSubscriberId
+A sensitive API query was matched! android.location.LocationManager.getLastKnownLocation
+Error: java.lang.SecurityException: "gps" location provider requires ACCESS_FINE_LOCATION permission.
+
+timeStamp：2025-05-21T08:21:00.119Z
+--->>> starting android.location.LocationManager.getLastKnownLocation
+function getLastKnownLocation(java.lang.String): android.location.Location called
+arg[0]: gps (string)
+nBacktrace:njava.lang.Exception
+	at android.location.LocationManager.getLastKnownLocation(Native Method)
+	at com.bytedance.sdk.openadsdk.utils.e$b.a(AdLocationUtils.java:239)
+	at com.bytedance.sdk.openadsdk.utils.e$b.call(AdLocationUtils.java:227)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.bytedance.sdk.openadsdk.utils.e$3.run(AdLocationUtils.java:196)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.location.LocationManager.getLastKnownLocation
+A sensitive API query was matched! android.location.LocationManager.getLastKnownLocation
+Error: java.lang.SecurityException: "network" location provider requires ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION permission.
+
+timeStamp：2025-05-21T08:21:00.135Z
+--->>> starting android.location.LocationManager.getLastKnownLocation
+function getLastKnownLocation(java.lang.String): android.location.Location called
+arg[0]: network (string)
+nBacktrace:njava.lang.Exception
+	at android.location.LocationManager.getLastKnownLocation(Native Method)
+	at com.bytedance.sdk.openadsdk.utils.e$b.a(AdLocationUtils.java:239)
+	at com.bytedance.sdk.openadsdk.utils.e$b.call(AdLocationUtils.java:227)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.bytedance.sdk.openadsdk.utils.e$3.run(AdLocationUtils.java:196)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.location.LocationManager.getLastKnownLocation
+A sensitive API query was matched! android.location.LocationManager.getLastKnownLocation
+Error: java.lang.SecurityException: "passive" location provider requires ACCESS_FINE_LOCATION permission.
+
+timeStamp：2025-05-21T08:21:00.144Z
+--->>> starting android.location.LocationManager.getLastKnownLocation
+function getLastKnownLocation(java.lang.String): android.location.Location called
+arg[0]: passive (string)
+nBacktrace:njava.lang.Exception
+	at android.location.LocationManager.getLastKnownLocation(Native Method)
+	at com.bytedance.sdk.openadsdk.utils.e$b.a(AdLocationUtils.java:239)
+	at com.bytedance.sdk.openadsdk.utils.e$b.call(AdLocationUtils.java:227)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.bytedance.sdk.openadsdk.utils.e$3.run(AdLocationUtils.java:196)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.location.LocationManager.getLastKnownLocation
+A sensitive API query was matched! android.telephony.TelephonyManager.getDeviceId
+
+timeStamp：2025-05-21T08:21:00.585Z
+--->>> starting android.telephony.TelephonyManager.getDeviceId
+function getDeviceId(): java.lang.String called
+retval: null (object)
+nBacktrace:njava.lang.Exception
+	at android.telephony.TelephonyManager.getDeviceId(Native Method)
+	at com.bytedance.embedapplog.bk.a(SourceFile:12)
+	at com.bytedance.embedapplog.as.a(SourceFile:38)
+	at com.bytedance.embedapplog.af.e(SourceFile:183)
+	at com.bytedance.embedapplog.p.handleMessage(SourceFile:128)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+--->>> exiting android.telephony.TelephonyManager.getDeviceId
+
+timeStamp：2025-05-21T08:21:00.465Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://app.qmjita.cn.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=rit=?, android:query-arg-sql-selection-args=[887473031]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:880)
+	at android.content.ContentResolver.query(ContentResolver.java:836)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.sdk.openadsdk.multipro.a.a.a(DBMultiAdapter.java:88)
+	at com.bytedance.sdk.openadsdk.core.widget.webview.a.c.b(TmplDbHelper.java:143)
+	at com.bytedance.sdk.openadsdk.core.widget.webview.a.d.b(TmplDiffManager.java:73)
+	at com.bytedance.sdk.openadsdk.core.widget.webview.a.a.b(TTDynamic.java:109)
+	at com.bytedance.sdk.openadsdk.core.i.h.h(TTSdkSettings.java:1447)
+	at com.bytedance.sdk.openadsdk.core.q.a(NetApiImpl.java:977)
+	at com.bytedance.sdk.openadsdk.core.q.a(NetApiImpl.java:216)
+	at com.bytedance.sdk.openadsdk.core.q.b(NetApiImpl.java:370)
+	at com.bytedance.sdk.openadsdk.core.q.a(NetApiImpl.java:295)
+	at com.bytedance.sdk.openadsdk.component.splash.b.a(SplashAdLoadManager.java:509)
+	at com.bytedance.sdk.openadsdk.component.splash.b.b(SplashAdLoadManager.java:271)
+	at com.bytedance.sdk.openadsdk.component.splash.b.a(SplashAdLoadManager.java:222)
+	at com.bytedance.sdk.openadsdk.TTC2Proxy.load(TTC2Proxy.java:21)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.bytedance.sdk.openadsdk.core.v$12.run(TTAdNativeImpl.java:268)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-05-21T08:21:00.464Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://app.qmjita.cn.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: rit=? (string)
+arg[3]: 887473031 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.sdk.openadsdk.multipro.a.a.a(DBMultiAdapter.java:88)
+	at com.bytedance.sdk.openadsdk.core.widget.webview.a.c.b(TmplDbHelper.java:143)
+	at com.bytedance.sdk.openadsdk.core.widget.webview.a.d.b(TmplDiffManager.java:73)
+	at com.bytedance.sdk.openadsdk.core.widget.webview.a.a.b(TTDynamic.java:109)
+	at com.bytedance.sdk.openadsdk.core.i.h.h(TTSdkSettings.java:1447)
+	at com.bytedance.sdk.openadsdk.core.q.a(NetApiImpl.java:977)
+	at com.bytedance.sdk.openadsdk.core.q.a(NetApiImpl.java:216)
+	at com.bytedance.sdk.openadsdk.core.q.b(NetApiImpl.java:370)
+	at com.bytedance.sdk.openadsdk.core.q.a(NetApiImpl.java:295)
+	at com.bytedance.sdk.openadsdk.component.splash.b.a(SplashAdLoadManager.java:509)
+	at com.bytedance.sdk.openadsdk.component.splash.b.b(SplashAdLoadManager.java:271)
+	at com.bytedance.sdk.openadsdk.component.splash.b.a(SplashAdLoadManager.java:222)
+	at com.bytedance.sdk.openadsdk.TTC2Proxy.load(TTC2Proxy.java:21)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.bytedance.sdk.openadsdk.core.v$12.run(TTAdNativeImpl.java:268)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-05-21T08:21:00.649Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://app.qmjita.cn.TTMultiProvider/t_db/ttopensdk.db/trackurl (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:880)
+	at android.content.ContentResolver.query(ContentResolver.java:836)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.sdk.openadsdk.multipro.a.a.a(DBMultiAdapter.java:88)
+	at com.bytedance.sdk.openadsdk.o.g.a(TrackRetryRepertoryImpl.java:35)
+	at com.bytedance.sdk.openadsdk.o.b$1.run(TrackAdUrlImpl.java:77)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-05-21T08:21:00.649Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://app.qmjita.cn.TTMultiProvider/t_db/ttopensdk.db/trackurl (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.sdk.openadsdk.multipro.a.a.a(DBMultiAdapter.java:88)
+	at com.bytedance.sdk.openadsdk.o.g.a(TrackRetryRepertoryImpl.java:35)
+	at com.bytedance.sdk.openadsdk.o.b$1.run(TrackAdUrlImpl.java:77)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-05-21T08:21:00.662Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://app.qmjita.cn.TTMultiProvider/t_db/ttopensdk.db/logstats (object)
+arg[1]: id,value (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=retry <?, android:query-arg-sql-selection-args=[5]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:880)
+	at android.content.ContentResolver.query(ContentResolver.java:836)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.sdk.openadsdk.multipro.a.a.a(DBMultiAdapter.java:88)
+	at com.bytedance.sdk.openadsdk.j.c.b.d(LogStatsCache.java:175)
+	at com.bytedance.sdk.openadsdk.j.c.c$1.run(LogUploaderImpl.java:41)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-05-21T08:21:00.657Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://app.qmjita.cn.TTMultiProvider/t_db/ttopensdk.db/logstats (object)
+arg[1]: id,value (object)
+arg[2]: retry <? (string)
+arg[3]: 5 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.sdk.openadsdk.multipro.a.a.a(DBMultiAdapter.java:88)
+	at com.bytedance.sdk.openadsdk.j.c.b.d(LogStatsCache.java:175)
+	at com.bytedance.sdk.openadsdk.j.c.c$1.run(LogUploaderImpl.java:41)
+	at com.bytedance.sdk.openadsdk.n.b.run(DelegateRunnable.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+
+--->>> exiting android.content.ContentResolver.query

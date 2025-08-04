@@ -1,0 +1,1151 @@
+status=0
+pid: 27706
+resume: 27706
+
+timeStamp：2025-07-20T15:49:54.757Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=rit=?, android:query-arg-sql-selection-args=[887545157]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:271)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:196)
+	at com.bytedance.sdk.openadsdk.core.y.bj$2.run(Unknown Source:159)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:54.755Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: rit=? (string)
+arg[3]: 887545157 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:271)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:196)
+	at com.bytedance.sdk.openadsdk.core.y.bj$2.run(Unknown Source:159)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:54.758Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=rit=?, android:query-arg-sql-selection-args=[887545157]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:149)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:65)
+	at com.bytedance.sdk.component.adexpress.zc.bj.bj.zc(Unknown Source:97)
+	at com.bytedance.sdk.openadsdk.core.y.bj$1.run(Unknown Source:117)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at com.bytedance.sdk.component.yp.y.bj.afterExecute(Unknown Source:61)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1175)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:54.757Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: rit=? (string)
+arg[3]: 887545157 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:149)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:65)
+	at com.bytedance.sdk.component.adexpress.zc.bj.bj.zc(Unknown Source:97)
+	at com.bytedance.sdk.openadsdk.core.y.bj$1.run(Unknown Source:117)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at com.bytedance.sdk.component.yp.y.bj.afterExecute(Unknown Source:61)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1175)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:55.443Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=id=? AND md5=?, android:query-arg-sql-selection-args=[ad_300000093, 9d538078924fed152814e66f6c4c3f07]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:86)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:213)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:82)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:55.442Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: id=? AND md5=? (string)
+arg[3]: ad_300000093,9d538078924fed152814e66f6c4c3f07 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:86)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:213)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:82)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:55.450Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=id=?, android:query-arg-sql-selection-args=[ad_300000093]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:151)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:225)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:92)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:55.450Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: id=? (string)
+arg[3]: ad_300000093 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:151)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:225)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:92)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:55.460Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.bj(Unknown Source:208)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:246)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:226)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:92)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:55.460Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.bj(Unknown Source:208)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:246)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:226)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:92)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:56.054Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=rit=?, android:query-arg-sql-selection-args=[887545157]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:271)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:196)
+	at com.bytedance.sdk.openadsdk.core.y.bj$2.run(Unknown Source:159)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:56.053Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: rit=? (string)
+arg[3]: 887545157 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:271)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:196)
+	at com.bytedance.sdk.openadsdk.core.y.bj$2.run(Unknown Source:159)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:56.055Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=rit=?, android:query-arg-sql-selection-args=[887545157]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:149)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:65)
+	at com.bytedance.sdk.component.adexpress.zc.bj.bj.zc(Unknown Source:97)
+	at com.bytedance.sdk.openadsdk.core.y.bj$1.run(Unknown Source:117)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:56.053Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: rit=? (string)
+arg[3]: 887545157 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:149)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:65)
+	at com.bytedance.sdk.component.adexpress.zc.bj.bj.zc(Unknown Source:97)
+	at com.bytedance.sdk.openadsdk.core.y.bj$1.run(Unknown Source:117)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:56.626Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=id=?, android:query-arg-sql-selection-args=[ad_300000093]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:151)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:225)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:87)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:56.625Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: id=? (string)
+arg[3]: ad_300000093 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:151)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:225)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:87)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:56.646Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.bj(Unknown Source:208)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:246)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:226)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:87)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:56.645Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.bj(Unknown Source:208)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:246)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.bj(Unknown Source:226)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:87)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:33)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj$1.run(Unknown Source:76)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:57.779Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=rit=?, android:query-arg-sql-selection-args=[964707898]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:149)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:65)
+	at com.bytedance.sdk.component.adexpress.zc.bj.bj.zc(Unknown Source:97)
+	at com.bytedance.sdk.openadsdk.core.y.bj$1.run(Unknown Source:117)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:57.779Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: rit=? (string)
+arg[3]: 964707898 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:149)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:65)
+	at com.bytedance.sdk.component.adexpress.zc.bj.bj.zc(Unknown Source:97)
+	at com.bytedance.sdk.openadsdk.core.y.bj$1.run(Unknown Source:117)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:57.782Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=rit=?, android:query-arg-sql-selection-args=[964707898]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:271)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:196)
+	at com.bytedance.sdk.openadsdk.core.y.bj$2.run(Unknown Source:159)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:57.780Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/ugen_template (object)
+arg[1]: null (object)
+arg[2]: rit=? (string)
+arg[3]: 964707898 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.y.zc(Unknown Source:271)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.zc.bj.zc(Unknown Source:196)
+	at com.bytedance.sdk.openadsdk.core.y.bj$2.run(Unknown Source:159)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:58.351Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=id=?, android:query-arg-sql-selection-args=[6825]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.zc(Unknown Source:104)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:61)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:220)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:58.350Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: id=? (string)
+arg[3]: 6825 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.zc(Unknown Source:104)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:61)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:220)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:58.357Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=id=?, android:query-arg-sql-selection-args=[6825]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.zc(Unknown Source:294)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:373)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:239)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:58.356Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: id=? (string)
+arg[3]: 6825 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.zc(Unknown Source:294)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:373)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:239)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:58.364Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:233)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:84)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:374)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:239)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:58.364Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:233)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:84)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:374)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:239)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+A sensitive API query was matched! android.webkit.WebChromeClient.getVisitedHistory
+
+timeStamp：2025-07-20T15:49:58.565Z
+--->>> starting android.webkit.WebChromeClient.getVisitedHistory
+function getVisitedHistory(android.webkit.ValueCallback): void called
+arg[0]: [object Object] (object)
+retval: undefined (undefined)
+nBacktrace:njava.lang.Exception
+	at android.webkit.WebChromeClient.getVisitedHistory(Native Method)
+	at org.chromium.android_webview.AwContents.D(chromium-TrichromeWebViewGoogle.apk-stable-410410683:42)
+	at org.chromium.android_webview.AwContents.C(chromium-TrichromeWebViewGoogle.apk-stable-410410683:7)
+	at com.android.webview.chromium.WebViewChromium.loadUrl(chromium-TrichromeWebViewGoogle.apk-stable-410410683:12)
+	at android.webkit.WebView.loadUrl(WebView.java:733)
+	at com.bytedance.sdk.component.widget.web.WebViewImpl.bj(Unknown Source:40)
+	at com.bytedance.sdk.component.widget.web.WebViewImpl$34.run(Unknown Source:186)
+	at com.bytedance.sdk.component.widget.web.BaseWebView.zc(Unknown Source:187)
+	at com.bytedance.sdk.component.widget.web.WebViewImpl.loadUrl(Unknown Source:180)
+	at com.bytedance.sdk.component.widget.web.BizWebView.loadUrl(Unknown Source:84)
+	at com.bytedance.sdk.component.adexpress.as.zc.zc(Unknown Source:201)
+	at com.bytedance.sdk.component.adexpress.bj.f.zc(Unknown Source:48)
+	at com.bytedance.sdk.component.adexpress.bj.i.zc(Unknown Source:35)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.NativeExpressView.n(Unknown Source:687)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.NativeExpressView.f(Unknown Source:676)
+	at com.bytedance.sdk.openadsdk.core.component.reward.layout.ib.zw(Unknown Source:299)
+	at com.bytedance.sdk.openadsdk.core.component.reward.j.zc.ib(Unknown Source:488)
+	at com.bytedance.sdk.openadsdk.core.component.reward.j.zc.bj(Unknown Source:383)
+	at com.bytedance.sdk.openadsdk.core.component.reward.activity.TTBaseVideoActivity.onCreate(Unknown Source:695)
+	at com.bytedance.pangle.activity.ProxyActivityUtils.onCreate(Unknown Source:106)
+	at com.bytedance.pangle.activity.GenerateProxyActivity.onCreate(Unknown Source:909)
+	at android.app.Activity.performCreate(Activity.java:8000)
+	at android.app.Activity.performCreate(Activity.java:7984)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3404)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3595)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7660)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+--->>> exiting android.webkit.WebChromeClient.getVisitedHistory
+A sensitive API query was matched! android.webkit.WebChromeClient.getVisitedHistory
+
+timeStamp：2025-07-20T15:49:59.084Z
+--->>> starting android.webkit.WebChromeClient.getVisitedHistory
+function getVisitedHistory(android.webkit.ValueCallback): void called
+arg[0]: [object Object] (object)
+retval: undefined (undefined)
+nBacktrace:njava.lang.Exception
+	at android.webkit.WebChromeClient.getVisitedHistory(Native Method)
+	at org.chromium.android_webview.AwContents.D(chromium-TrichromeWebViewGoogle.apk-stable-410410683:42)
+	at org.chromium.android_webview.AwContents.C(chromium-TrichromeWebViewGoogle.apk-stable-410410683:7)
+	at com.android.webview.chromium.WebViewChromium.loadUrl(chromium-TrichromeWebViewGoogle.apk-stable-410410683:12)
+	at android.webkit.WebView.loadUrl(WebView.java:733)
+	at com.bytedance.sdk.component.widget.web.WebViewImpl.bj(Unknown Source:40)
+	at com.bytedance.sdk.component.widget.web.WebViewImpl$34.run(Unknown Source:186)
+	at com.bytedance.sdk.component.widget.web.BaseWebView.zc(Unknown Source:187)
+	at com.bytedance.sdk.component.widget.web.WebViewImpl.loadUrl(Unknown Source:180)
+	at com.bytedance.sdk.component.widget.web.BizWebView.loadUrl(Unknown Source:84)
+	at com.bytedance.sdk.openadsdk.core.component.reward.endcard.bj.eb(Unknown Source:306)
+	at com.bytedance.sdk.openadsdk.core.component.reward.bj.bj.zc(Unknown Source:250)
+	at com.bytedance.sdk.openadsdk.core.component.reward.j.zc$4.zc(Unknown Source:471)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.NativeExpressView.bj(Unknown Source:1309)
+	at com.bytedance.sdk.openadsdk.core.component.reward.view.FullRewardExpressView.bj(Unknown Source:163)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.NativeExpressView$6.run(Unknown Source:1271)
+	at com.bytedance.sdk.openadsdk.mq.zw.zc(Unknown Source:25)
+	at com.bytedance.sdk.openadsdk.core.nativeexpress.NativeExpressView.zc(Unknown Source:1268)
+	at com.bytedance.sdk.component.adexpress.bj.f$1.zc(Unknown Source:59)
+	at com.bytedance.sdk.component.adexpress.as.zc.zc(Unknown Source:293)
+	at com.bytedance.sdk.component.adexpress.as.zc$1.run(Unknown Source:280)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7660)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+--->>> exiting android.webkit.WebChromeClient.getVisitedHistory
+
+timeStamp：2025-07-20T15:49:59.586Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: Bundle[{android:query-arg-sql-selection=id=?, android:query-arg-sql-selection-args=[6825]}] (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.zc(Unknown Source:294)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:373)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:226)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:59.585Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: id=? (string)
+arg[3]: 6825 (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.zc(Unknown Source:294)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:373)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:226)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:59.591Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, android.os.Bundle, android.os.CancellationSignal): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at android.content.ContentResolver.query(ContentResolver.java:1115)
+	at android.content.ContentResolver.query(ContentResolver.java:1071)
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:233)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:84)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:374)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:226)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query
+
+timeStamp：2025-07-20T15:49:59.591Z
+--->>> starting android.content.ContentResolver.query
+function query(android.net.Uri, [Ljava.lang.String;, java.lang.String, [Ljava.lang.String;, java.lang.String): android.database.Cursor called
+arg[0]: content://cn.moduoketech.finder.TTMultiProvider/t_db/ttopensdk.db/template_diff_new (object)
+arg[1]: null (object)
+arg[2]: null (object)
+arg[3]: null (object)
+arg[4]: null (object)
+retval: [object Object] (object)
+[Return value begin]
+query
+[uri queried not in list]
+[Return value end]
+
+nBacktrace:njava.lang.Exception
+	at android.content.ContentResolver.query(Native Method)
+	at com.bytedance.pangle.provider.a.a(Unknown Source:122)
+	at com.bytedance.pangle.provider.ContentProviderManager.query(Unknown Source:155)
+	at com.bytedance.pangle.transform.ZeusProviderTransform.query(Unknown Source:44)
+	at com.bytedance.sdk.openadsdk.core.multipro.zc.zc.query(Unknown Source:88)
+	at com.bytedance.sdk.openadsdk.core.up$3.query(Unknown Source:296)
+	at com.bytedance.sdk.component.adexpress.zc.bj.as.bj(Unknown Source:233)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:84)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.bj(Unknown Source:374)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:226)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g.zc(Unknown Source:30)
+	at com.bytedance.sdk.component.adexpress.zc.bj.g$1.run(Unknown Source:214)
+	at com.bytedance.sdk.component.yp.zc.y.run(Unknown Source:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+
+--->>> exiting android.content.ContentResolver.query

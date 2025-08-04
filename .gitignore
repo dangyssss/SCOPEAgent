@@ -5,7 +5,6 @@ __pycache__/
 *.env
 .vscode/
 .idea/
-*.log
 
 *.conda
 *.egg-info/
